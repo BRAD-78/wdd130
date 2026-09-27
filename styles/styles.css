@@ -25,10 +25,6 @@ nav a {
     display: block;
 }
 
-main {
-    max-width: 840px;
-}
-
 h1 {
     color: darkblue;
 }
@@ -83,4 +79,21 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: relative;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
