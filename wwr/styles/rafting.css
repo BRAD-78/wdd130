@@ -64,10 +64,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -105,12 +101,6 @@ article {
     margin: 10px;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .socialmedia {
     display: flex;
     align-items: center;
@@ -123,11 +113,6 @@ footer {
     display: block;
     padding: 4px;
     text-decoration: none;
-}
-
-ialmedia img {
-    width: 32px;
-    height: 32px;
 }
 
 .history {
