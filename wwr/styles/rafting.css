@@ -152,30 +152,30 @@ ialmedia img {
     height: auto;
 }
 
-.adventures h2 {
-    text-align: center;
-    margin-bottom: 16px;
-}
-
-.adventure-gallery {
+.adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 12px;
 }
 
-.adventure-gallery figure {
+.adventures h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.adventures figure {
     margin: 0;
     text-align: center;
 }
 
-.adventure-gallery img {
+.adventures img {
     display: block;
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: cover;
 }
 
-.adventure-gallery figcaption {
+.adventures figcaption {
     margin-top: 8px;
     font-size: 0.85rem;
 }
