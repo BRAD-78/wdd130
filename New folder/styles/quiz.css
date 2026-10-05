@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+header, main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #16324f;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f2f4f6;
+}
+
+label {
+  margin-top: 0.75rem;
+  font-weight: 700;
+}
+
+input, textarea, select, button {
+  width: 100%;
+  min-width: 0;
+  padding: 0.75rem;
+  font: inherit;
+  border: 1px solid #777;
+  border-radius: 0.25rem;
+}
+
+input, textarea, select {
+  background-color: #fff;
+  color: #222;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus, textarea:focus, select:focus, button:focus-visible {
+  outline: 2px solid #16324f;
+  outline-offset: 2px;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #16324f;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #24547f;
+}
