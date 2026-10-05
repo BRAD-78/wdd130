@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact our white water rafting team for general inquiries, reservation questions, and website suggestions. Find our contact details and location.">
+    <meta name="author" content="Henry Bradley Ochieng">
+    <title>Contact Us | White Water Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/raftinglogo.webp" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <h1>Contact Us</h1>
+
+        <div class="contact-layout">
+            <section class="company-info">
+                <h2>Rafting Company Name</h2>
+                <address>
+                    <p>Address: Main Street, Juja, Kenya</p>
+                    <p>Phone: <a href="tel:+254782477308">+254 782 477 308</a></p>
+                    <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                </address>
+                <iframe src="https://maps.google.com/maps?q=Jinja%2C%20Uganda&amp;output=embed"
+                  title="Map of Jinja, Uganda" width="350" height="250" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </section>
+
+            <section class="contact-form-section">
+                <h2>Send Us a Message</h2>
+                <form class="contact-form">
+                    <label for="fullname">Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+
+                    <fieldset>
+                        <legend>Purpose of the message</legend>
+                        <div class="radio-option">
+                            <input type="radio" id="general" name="purpose" value="general-inquiry"
+                              required>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="reservation" name="purpose"
+                              value="reservation-question">
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="suggestion" name="purpose"
+                              value="website-suggestion">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <div class="newsletter-option">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee-guide.webp" alt="Illustrated profile of our rafting guide"
+                  width="240" height="240" loading="lazy">
+                <figcaption>Rafting Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-reservations.webp"
+                  alt="Illustrated profile of our reservations coordinator" width="240" height="240"
+                  loading="lazy">
+                <figcaption>Reservations Coordinator</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-safety.webp"
+                  alt="Illustrated profile of our safety manager" width="240" height="240"
+                  loading="lazy">
+                <figcaption>Safety Manager</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Rafting Company Name | Henry Bradley Ochieng</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
